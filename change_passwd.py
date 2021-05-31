@@ -2,6 +2,13 @@ import serial
 import sys
 import time
 
+############################
+#                          #
+#       Broken ATM         #
+#                          #
+############################
+
+
 if len(sys.argv) == 1:
     print("usage: extract.py 'port' 'password'")
     sys.exit()
