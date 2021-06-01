@@ -1,10 +1,10 @@
-# Teckin TC100 IP-CAM
+# Teckin TC100 IP-CAMERA
 
 ## Overview
 
 Internal Pictures can be found at: [FCC ID](https://fccid.io/2AQNX-TC100).
 
-Nmap returns no open ports and no firmware donwlaod can be found on [Teckins](https://www.teckinhome.com/) website.
+Nmap returns no open ports and no firmware download can be found on [Teckins](https://www.teckinhome.com/) website.
 
 ## Hardware
 
@@ -15,7 +15,6 @@ Nmap returns no open ports and no firmware donwlaod can be found on [Teckins](ht
 |DRAM| 64 MiB|
 |SPI flash| 8 MiB|
 |WiFi|[RTL8188FTV](https://www.realtek.com/en/products/communications-network-ics/item/rtl8188ftv)
-
 
 ## Firmware
 
