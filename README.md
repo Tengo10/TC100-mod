@@ -11,7 +11,7 @@ Nmap returns no open ports and no firmware download can be found on [Teckins](ht
 |||
 |----|------|
 |CPU |[ANYKA CPU AK3918](http://www.anyka.com/en/productInfo.aspx?id=113)|
-|Architecture| ARM926EJ-S|
+|Architecture| ARM926EJ-S (armv51)|
 |DRAM| 64 MiB|
 |SPI flash| 8 MiB|
 |WiFi|[RTL8188FTV](https://www.realtek.com/en/products/communications-network-ics/item/rtl8188ftv)
