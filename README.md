@@ -109,7 +109,7 @@ firmware:
 
 ### Firmware Backup
 
-> The included Python script works quite well, __however for both an SD card is needed__
+> The included Python script works quite well, __however for both a SD card is needed__
 
 Manual way:
 
@@ -142,7 +142,7 @@ Manual way:
     ```
  
 5. reboot the camera into U-Boot
-6. Change environmental varials back and reboot:
+6. Change environmental variables back and reboot:
 
     ```
     env set bootargs console=ttySAK0,115200n8 root=/dev/mtdblock4 rootfstype=squashfs init=/sbin/init mem=64M memsize=64M
@@ -150,4 +150,16 @@ Manual way:
     reset
     ```
 7. Done!
+
+### Updating Firmware Imagines
+
+The whole firmware is split into 5 partitions. 
+
+1. uboot.bin: contains the bootloader
+2. uImage: contains the Linux Kernel
+3. root.sqfs4: contains the linux root directory
+4. usr.sqfs4: contains most of the Teckin binaries
+5. usr.jffs2: contains only cloud service and sensor configs
+
+U-Boot offers some simple to use tools. Just put files named as written above onto the SD card and run tfdown(jffs2fs/kernel/rootfs/squashfs/uboot/boot).
 
