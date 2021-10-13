@@ -7,6 +7,8 @@ Internal Pictures can be found at: [FCC ID](https://fccid.io/2AQNX-TC100).
 Nmap returns no open ports and no firmware downloads can be found on [Teckins](https://www.teckinhome.com/) website.
 
 Hardware seems to be very similar to the [Banana-Pi Cam(D1)](https://github.com/Lamobo/Lamobo-D1).
+Most Hardware seems similar to Information found in this [Repository](https://github.com/JayGoldberg/anyka-cams).
+
 
 ## Hardware
 
